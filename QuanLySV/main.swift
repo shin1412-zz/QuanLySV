@@ -103,7 +103,6 @@ class LopHoc {
         print(sv)
     }
 }
-func taoSinhVien(){
     let sv1 = SinhVien(ten: "Nam", tuoi: 1)
     let sv2 = SinhVien(ten: "Hoàng", tuoi: 2)
     let sv3 = SinhVien(ten: "Linh", tuoi: 3, sdt: "11111")
@@ -129,5 +128,3 @@ func taoSinhVien(){
     class1.deleteSinhVien(ten: "Lan")
     
     class1.thongTinSV()
-}
-taoSinhVien()
